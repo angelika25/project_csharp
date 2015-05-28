@@ -22,6 +22,7 @@ namespace przelicznik
             if (radioButton1.Checked)
             {
                 label1.Text = (double.Parse(textBox1.Text) * (0.0058824)).ToString();
+                label7.Text = (double.Parse(textBox1.Text) * (0.1)).ToString();
             }
         }
     }
